@@ -3,6 +3,9 @@ module.exports = {
   content: ["index.html"],
   theme: {
     extend: {
+      backgroundImage: {
+        homebg: "url('assets/bghome.png')",
+      },
       fontFamily: {
         poppins: ["Poppins"],
         montserrat: ["Montserrat"],

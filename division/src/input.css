@@ -3,12 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-poppins bg-white;
-}
-
-section#home {
-  background-image: linear-gradient(to left, #3d85d7 10%, #ffffff);
-  @apply bg-no-repeat w-full;
+  @apply font-poppins;
 }
 
 .navbar-fixed {

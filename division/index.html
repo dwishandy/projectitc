@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IT Club Nedukabta</title>
+    <title>Division | IT Club Nedukabta</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,9 +18,13 @@
     <link rel="stylesheet" href="path-to-the-file/splide.min.css" />
     <link rel="stylesheet" href="url-to-cdn/splide.min.css" />
     <link rel="stylesheet" href="src/output.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="assets/home/IT.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../assets/IT.png" type="image/x-icon" />
   </head>
-  <body id="home" class="scrollbar-thin scrollbar-thumb-bluetxt">
+  <body
+    id="home"
+    class="scrollbar-thin scrollbar-thumb-bluetxt bg-white bg-cover bg-center"
+    style="background-image: url('assets/bghome.png')"
+  >
     <!-- header section start -->
     <header
       class="absolute top-0 left-0 w-full py-2 font-poppins flex justify-center bg-transparent"
@@ -29,15 +33,11 @@
         <div class="flex justify-between relative items-center mx-6 md:mx-20">
           <div class="flex items-center gap-2 md:gap-4">
             <img
-              src="assets/home/IT.png"
+              src="assets/IT.png"
               alt="Logo IT Club Nedukabta"
               class="w-[30px] md:w-[45px]"
             />
-            <a
-              href="#home"
-              class="font-bold text-base md:text-xl hover:text-white"
-              >IT Club</a
-            >
+            <a href="#home" class="font-bold text-base md:text-xl">IT Club</a>
           </div>
 
           <div class="flex items-center px-4">
@@ -60,12 +60,12 @@
 
             <nav
               id="nav-menu"
-              class="hidden absolute z-50 py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full -right-6 top-10 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+              class="hidden absolute z-50 py-5 text-white bg-mainblue shadow-lg rounded-lg max-w-[250px] w-full -right-6 top-10 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:text-black"
             >
               <ul class="block lg:flex">
                 <li class="group">
                   <a
-                    href="#home"
+                    href="../index.html"
                     class="text-base py-2 mx-4 flex lg:py-0 lg:text-sm hover:underline"
                     >Home</a
                   >
@@ -79,7 +79,7 @@
                 </li>
                 <li class="group">
                   <a
-                    href="#division"
+                    href="index.html"
                     class="text-base py-2 mx-4 flex lg:py-0 lg:text-sm hover:underline"
                     >Division</a
                   >
@@ -113,6 +113,111 @@
     </header>
     <!-- header section end -->
 
+    <!-- division start -->
+    <section
+      class="w-full flex justify-center items-center px-4 md:px-44 pt-20 md:pt-32"
+    >
+      <div class="container">
+        <div class="flex flex-wrap justify-center">
+          <div class="flex flex-wrap justify-center lg:justify-start">
+            <h1
+              class="text-center text-[22px] font-bold w-full md:text-3xl mb-4 lg:text-start"
+            >
+              Divisi Penuh Edukasi di
+              <span class="text-mainblue"> IT CLub </span>
+            </h1>
+            <div class="flex items-center">
+              <p class="text-xs text-center lg:text-start lg:w-3/4 md:text-sm">
+                Bergabunglah dengan IT Club dan temukan passion kalian dalam
+                bidang teknologi informasi! Masing-masing divisi menawarkan
+                pengalaman yang unik dan kesempatan untuk mengembangkan
+                keterampilan berharga yang akan membuka pintu karir di masa
+                depan. Ayo, jadilah bagian dari komunitas kami yang dinamis dan
+                penuh semangat!
+              </p>
+              <div
+                class="hidden w-[200px] lg:flex lg:absolute lg:right-[200px] lg:top-[80px] lg:rotate-12"
+              >
+                <img src="assets/Vectary texture.png" alt="rocket" />
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap md:flex-nowrap justify-center mt-20">
+            <div
+              class="relative bg-mainblue w-[250px] rounded-xl p-6 h-[400px] 3xl:w-[350px]"
+            >
+              <h1 class="text-2xl font-bold text-white">
+                PROGRAM <br />
+                DIVISION
+              </h1>
+              <div class="flex flex-wrap justify-center">
+                <div class="w-[250px] -mt-14 flex justify-center">
+                  <img src="assets/program.png" alt="Program Division" />
+                </div>
+                <p class="text-sm text-center text-white">
+                  Apakah kalian tertarik ingin menjadi programmer dan ingin
+                  belajar coding mulai dari dasar? masuk divisi program adalah
+                  pilihan yang tepat!
+                </p>
+                <a
+                  href="#"
+                  class="text-sm mt-6 bg-white py-2 px-3 rounded-full font-medium text-mainblue"
+                  >Selengkapnya</a
+                >
+              </div>
+            </div>
+            <div
+              class="bg-mainblue w-[250px] rounded-xl p-6 my-4 mx-2 h-[400px] md:my-0 3xl:w-[350px] 3xl:mx-6"
+            >
+              <h1 class="text-2xl font-bold text-white">
+                DESIGN <br />
+                DIVISION
+              </h1>
+              <div class="flex flex-wrap justify-center">
+                <div class="w-[250px] -mt-14 flex justify-center">
+                  <img src="assets/design.png" alt="Program Division" />
+                </div>
+                <p class="text-sm text-center text-white">
+                  Jika kalian adalah orang yang mempunyai kemampuan berfikir
+                  kreatif dan inovatif, maka masuk divisi desain adalah pilihan
+                  yang tepat!
+                </p>
+                <a
+                  href="#"
+                  class="text-sm mt-6 bg-white py-2 px-3 rounded-full font-medium text-mainblue"
+                  >Selengkapnya</a
+                >
+              </div>
+            </div>
+            <div
+              class="bg-mainblue w-[250px] rounded-xl p-6 h-[400px] 3xl:w-[350px]"
+            >
+              <h1 class="text-2xl font-bold text-white">
+                NETWORK <br />
+                DIVISION
+              </h1>
+              <div class="flex flex-wrap justify-center">
+                <div class="w-[250px] -mt-14 flex justify-center">
+                  <img src="assets/network.png" alt="Program Division" />
+                </div>
+                <p class="text-sm text-center text-white">
+                  Kalian ingin belajar tentang jaringan komputer dan internet
+                  yang kita pakai saat ini? maka masuk divisi jaringan adalah
+                  pilihan yang tepat!
+                </p>
+                <a
+                  href="#"
+                  class="text-sm mt-6 bg-white py-2 px-3 rounded-full font-medium text-mainblue"
+                  >Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- division end -->
+
     <!-- footer start -->
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +239,7 @@
         >
           <div class="flex items-center mt-6 md:mt-0">
             <img
-              src="assets/home/IT.png"
+              src="assets/IT.png"
               alt="itlogo"
               class="w-[50px] lg:w-[70px]"
             />
@@ -184,6 +289,20 @@
       </div>
     </footer>
     <!-- footer end -->
+
+    <script src="path-to-the-file/splide.min.js"></script>
+    <script>
+      var splide = new Splide(".splide", {
+        type: "loop",
+        perPage: 3,
+        focus: "center",
+        autoplay: "playing",
+        arrows: false,
+        pagination: false,
+      });
+
+      splide.mount();
+    </script>
     <script src="js/script.js"></script>
   </body>
 </html>
