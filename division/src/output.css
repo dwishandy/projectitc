@@ -1132,6 +1132,11 @@ body {
     margin-bottom: 0px;
   }
 
+  .lg\:mx-6 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
   .lg\:mt-24 {
     margin-top: 6rem;
   }
@@ -1154,6 +1159,10 @@ body {
 
   .lg\:w-\[70px\] {
     width: 70px;
+  }
+
+  .lg\:w-\[350px\] {
+    width: 350px;
   }
 
   .lg\:max-w-full {
