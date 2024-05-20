@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Division | IT Club Nedukabta</title>
+    <title>Network Division | IT Club Nedukabta</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,13 +11,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/output.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="../assets/IT.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/IT.png" type="image/x-icon" />
   </head>
-  <body
-    id="home"
-    class="scrollbar-thin scrollbar-thumb-bluetxt bg-white bg-cover bg-center"
-    style="background-image: url('assets/bghome.png')"
-  >
+  <body id="home" class="scrollbar-thin scrollbar-thumb-bluetxt">
     <!-- header section start -->
     <header
       class="absolute top-0 left-0 w-full py-2 font-poppins flex justify-center bg-transparent"
@@ -30,7 +26,7 @@
               alt="Logo IT Club Nedukabta"
               class="w-[30px] md:w-[45px]"
             />
-            <a href="../index.html" class="font-bold text-base md:text-xl"
+            <a href="../../index.html" class="font-bold text-base md:text-xl"
               >IT Club</a
             >
           </div>
@@ -60,7 +56,7 @@
               <ul class="block lg:flex">
                 <li class="group">
                   <a
-                    href="../index.html"
+                    href="../../index.html"
                     class="text-base py-2 mx-4 flex lg:py-0 lg:text-sm hover:underline"
                     >Home</a
                   >
@@ -74,7 +70,7 @@
                 </li>
                 <li class="group">
                   <a
-                    href="index.html"
+                    href="../index.html"
                     class="text-base py-2 mx-4 flex lg:py-0 lg:text-sm hover:underline"
                     >Division</a
                   >
@@ -108,112 +104,131 @@
     </header>
     <!-- header section end -->
 
-    <!-- division start -->
+    <!-- program division start -->
     <section
-      class="w-full flex justify-center items-center px-4 md:px-44 pt-20 md:pt-32"
+      class="w-full flex justify-center items-center px-6 md:px-28 pt-20 md:pt-32 3xl:px-56"
     >
       <div class="container">
-        <div class="flex flex-wrap justify-center">
-          <div class="flex flex-wrap justify-center lg:justify-start">
-            <h1
-              class="text-center text-[22px] font-bold w-full md:text-3xl mb-4 lg:text-start"
-            >
-              Divisi Penuh Edukasi di
-              <span class="text-mainblue"> IT CLub </span>
+        <a href="../index.html" class="flex items-center mb-8"
+          ><img
+            src="assets/leftarrow.png"
+            alt="leftarrow"
+            class="w-[20px] mr-2"
+          />
+          Back</a
+        >
+        <div
+          class="w-full flex items-center relative py-6 px-7 bg-blueline rounded-xl lg:py-8 md:px-10 lg:h-[265px]"
+        >
+          <div class="lg:w-1/2">
+            <h1 class="text-lg text-white font-bold lg:text-3xl">
+              NETWORK <br />
             </h1>
-            <div class="flex items-center">
-              <p
-                class="font-montserrat text-xs text-center lg:text-start lg:w-3/4 md:text-sm"
+            <h1 class="text-lg text-white font-bold indent-9 lg:text-3xl">
+              DIVISION
+            </h1>
+            <p class="text-xs text-white my-4 lg:text-sm md:my-6">
+              Penasaran dengan cara kerja jaringan internet dan keamanan
+              komputer? Di divisi ini, kalian akan mempelajari rahasia di balik
+              jaringan dan bagaimana melindunginya dari ancaman.
+            </p>
+            <div class="relative">
+              <a href="#more" class="text-xs text-white md:text-sm"
+                >Baca Selengkapnya!</a
               >
-                Bergabunglah dengan IT Club dan temukan passion kalian dalam
-                bidang teknologi informasi! Masing-masing divisi menawarkan
-                pengalaman yang unik dan kesempatan untuk mengembangkan
-                keterampilan berharga yang akan membuka pintu karir di masa
-                depan. Ayo, jadilah bagian dari komunitas kami yang dinamis dan
-                penuh semangat!
-              </p>
+              <span
+                class="absolute w-[135px] border -bottom-1 -left-1 md:w-[155px]"
+              ></span>
+            </div>
+          </div>
+          <div
+            class="hidden lg:block lg:absolute lg:right-0 lg:-top-[87px] lg:w-[50%]"
+          >
+            <img src="assets/model.png" alt="model" class="absolute right-0" />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-8 lg:mt-12">
+          <div>
+            <p class="text-center lg:text-start">
+              Divisi networking adalah wadah untuk sharing seputar network, dan
+              divisi network pun membahas juga seputar hadware, software
+              komputer dan jaringan yang bisa memberikan kalian sebuah modal
+              untuk menjadi seorang network enginer . Nah untuk hardware disini
+              kita akan sharing hadware seperti mikrotik,router,cpu, komponen
+              komponen komputer dan masih banyak lagi, dan untuk konfigurasi
+              alat alat tersebut kita membutuhkan beberapa software berupa cisco
+              packet tracer,winbox,virtual box.
+            </p>
+          </div>
+
+          <div class="mt-6 lg:my-0">
+            <h1 class="text-xl font-semibold">Software ></h1>
+            <div class="flex flex-wrap justify-center mt-6">
               <div
-                class="hidden w-[200px] lg:flex lg:absolute lg:right-[200px] lg:top-[80px] lg:rotate-12"
+                class="w-[100px] h-[100px] bg-mainblue flex flex-wrap justify-center rounded-xl py-4 md:mr-4"
               >
-                <img src="assets/Vectary texture.png" alt="rocket" />
+                <img
+                  src="assets/vbox.png"
+                  alt="virtual box img"
+                  class="w-[70%]"
+                />
+              </div>
+              <div
+                class="w-[100px] h-[100px] bg-mainblue flex flex-wrap justify-center rounded-xl py-4 mx-2"
+              >
+                <img src="assets/winbox.png" alt="winbox img" class="w-[70%]" />
+              </div>
+              <div
+                class="w-[100px] h-[100px] bg-mainblue flex flex-wrap justify-center rounded-xl py-4 lg:mt-4"
+              >
+                <img src="assets/cisco.png" alt="Figma img" class="w-[70%]" />
+              </div>
+            </div>
+            <h1 class="text-xl font-semibold mt-6">Hardware ></h1>
+            <div class="mx-[30px] mt-6">
+              <div class="relative">
+                <p class="font-semibold">Router</p>
+                <span
+                  class="absolute w-[60px] h-[5px] bg-blueline rounded-full"
+                ></span>
+              </div>
+              <div class="relative my-6">
+                <p class="font-semibold">Central Processing Unit (CPU)</p>
+                <span
+                  class="absolute w-[245px] h-[5px] bg-blueline rounded-full"
+                ></span>
+              </div>
+              <div class="relative">
+                <p class="font-semibold">Mikrotik</p>
+                <span
+                  class="absolute w-[65px] h-[5px] bg-blueline rounded-full"
+                ></span>
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap md:flex-nowrap justify-center mt-20">
-            <div
-              class="relative bg-mainblue w-[250px] rounded-xl p-6 h-[400px] lg:w-[350px]"
-            >
-              <h1 class="text-2xl font-bold text-white">
-                PROGRAM <br />
-                DIVISION
-              </h1>
-              <div class="flex flex-wrap justify-center">
-                <div class="w-[250px] -mt-10 lg:-mt-14 flex justify-center">
-                  <img src="assets/program.png" alt="Program Division" />
-                </div>
-                <p class="text-sm text-center text-white">
-                  Apakah kalian tertarik ingin menjadi programmer dan ingin
-                  belajar coding mulai dari dasar? masuk divisi program adalah
-                  pilihan yang tepat!
-                </p>
-                <a
-                  href="program/index.html"
-                  class="text-sm mt-6 bg-white py-2 px-3 rounded-full font-medium text-mainblue"
-                  >Selengkapnya</a
-                >
+
+          <div class="mt-16 lg:mt-0">
+            <h1 class="text-xl font-semibold">Focus Skill ></h1>
+            <div class="flex flex-wrap justify-center mt-6">
+              <div class="w-full bg-mainblue rounded-full py-2">
+                <p class="text-center text-white">Routing</p>
               </div>
-            </div>
-            <div
-              class="bg-mainblue w-[250px] rounded-xl p-6 my-4 mx-2 h-[400px] md:my-0 lg:w-[350px] lg:mx-6"
-            >
-              <h1 class="text-2xl font-bold text-white">
-                DESIGN <br />
-                DIVISION
-              </h1>
-              <div class="flex flex-wrap justify-center">
-                <div class="w-[250px] -mt-10 lg:-mt-14 flex justify-center">
-                  <img src="assets/design.png" alt="Program Division" />
-                </div>
-                <p class="text-sm text-center text-white">
-                  Jika kalian adalah orang yang mempunyai kemampuan berfikir
-                  kreatif dan inovatif, maka masuk divisi desain adalah pilihan
-                  yang tepat!
-                </p>
-                <a
-                  href="design/index.html"
-                  class="text-sm mt-6 bg-white py-2 px-3 rounded-full font-medium text-mainblue"
-                  >Selengkapnya</a
-                >
+              <div class="w-full bg-mainblue rounded-full py-2 mt-4">
+                <p class="text-center text-white">Hardware Knowledge</p>
               </div>
-            </div>
-            <div
-              class="bg-mainblue w-[250px] rounded-xl p-6 h-[400px] lg:w-[350px]"
-            >
-              <h1 class="text-2xl font-bold text-white">
-                NETWORK <br />
-                DIVISION
-              </h1>
-              <div class="flex flex-wrap justify-center">
-                <div class="w-[250px] -mt-10 lg:-mt-14 flex justify-center">
-                  <img src="assets/network.png" alt="Program Division" />
-                </div>
-                <p class="text-sm text-center text-white">
-                  Kalian ingin belajar tentang jaringan komputer dan internet
-                  yang kita pakai saat ini? maka masuk divisi jaringan adalah
-                  pilihan yang tepat!
-                </p>
-                <a
-                  href="network/index.html"
-                  class="text-sm mt-6 bg-white py-2 px-3 rounded-full font-medium text-mainblue"
-                  >Selengkapnya</a
-                >
+              <div class="w-full bg-mainblue rounded-full py-2 my-4">
+                <p class="text-center text-white">DNS Server</p>
+              </div>
+              <div class="w-full bg-mainblue rounded-full py-2 mb-4">
+                <p class="text-center text-white">Network Secure</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- division end -->
+    <!-- program division end -->
 
     <!-- footer start -->
     <svg
