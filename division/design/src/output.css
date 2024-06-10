@@ -901,6 +901,14 @@ video {
   padding-top: 5rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1217,10 +1225,6 @@ body {
     width: 70px;
   }
 
-  .lg\:w-\[45\%\] {
-    width: 45%;
-  }
-
   .lg\:max-w-full {
     max-width: 100%;
   }
@@ -1249,6 +1253,10 @@ body {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:pt-\[85px\] {
+    padding-top: 85px;
   }
 
   .lg\:text-start {
