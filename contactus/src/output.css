@@ -750,10 +750,6 @@ video {
   height: 45px;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .w-\[20px\] {
   width: 20px;
 }
@@ -1026,6 +1022,10 @@ video {
   transition-duration: 300ms;
 }
 
+.duration-500 {
+  transition-duration: 500ms;
+}
+
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1130,6 +1130,11 @@ body {
 
 .sidebar-open {
   right: 0.25rem;
+}
+
+.hover\:bg-bluetxt:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 65 125 / var(--tw-bg-opacity));
 }
 
 .hover\:underline:hover {
