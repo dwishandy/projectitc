@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Anggota Baru | IT Club Nedukabta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../assets/IT.png" type="image/x-icon" />
+  </head>
+  <body id="home" class="scrollbar-thin scrollbar-thumb-bluetxt">
+    <section class="w-full h-screen flex justify-center items-center px-4">
+      <div class="container">
+        <div class="flex flex-wrap justify-center">
+          <div
+            class="flex flex-wrap bg-white p-6 rounded-2xl shadow-2xl shadow-gray-500 md:w-[80%] lg:w-[50%]"
+          >
+            <div class="w-full pt-6 px-4">
+              <div class="flex justify-center mb-10">
+                <h1 class="font-bold text-2xl text-center md:text-3xl">
+                  PENDAFTARAN ANGGOTA BARU
+                </h1>
+              </div>
+
+              <form onsubmit="return sendMessage()">
+                <ul class="flex flex-wrap justify-between">
+                  <li class="w-full">
+                    <label for="nama" class="text-gray-600 text-sm"
+                      >Nama Kamu</label
+                    >
+                    <input
+                      type="text"
+                      name="nama"
+                      id="nama"
+                      required
+                      class="border-b-2 focus:outline-none border-gray-400 w-full"
+                    />
+                  </li>
+
+                  <li class="w-full my-4 md:mt-10 md:mb-0 md:w-[45%]">
+                    <label for="kelas" class="text-gray-600 text-sm"
+                      >Kelas Kamu</label
+                    >
+                    <input
+                      type="text"
+                      name="kelas"
+                      id="kelas"
+                      required
+                      class="border-b-2 focus:outline-none border-gray-400 w-full"
+                    />
+                  </li>
+
+                  <li class="w-full mb-4 md:mt-10 md:mb-0 md:w-[50%]">
+                    <label for="jurusan" class="text-gray-600 text-sm"
+                      >Jurusan Kamu</label
+                    >
+                    <input
+                      type="text"
+                      name="jurusan"
+                      id="jurusan"
+                      required
+                      class="border-b-2 focus:outline-none border-gray-400 w-full"
+                    />
+                  </li>
+
+                  <li class="w-full mb-6 md:mt-10 md:mb-4">
+                    <label for="jurusan" class="text-gray-600 text-sm"
+                      >Pilih Divisi</label
+                    >
+                    <input
+                      type="text"
+                      name="divisi"
+                      id="divisi"
+                      required
+                      class="border-b-2 focus:outline-none border-gray-400 w-full"
+                    />
+                  </li>
+
+                  <li class="flex flex-wrap justify-center w-full">
+                    <div>
+                      <button
+                        type="submit"
+                        class="py-3 px-10 bg-mainblue rounded-full text-white mt-6 text-sm hover:bg-bluetxt transition duration-500"
+                      >
+                        Daftar
+                      </button>
+                    </div>
+
+                    <div class="mt-4">
+                      <p class="text-[14px] text-center">
+                        Bingung dengan pilihan divisi di IT Club? klik
+                        <a
+                          href="../division/index.html"
+                          class="underline text-mainblue active:text-blueline"
+                          >disini</a
+                        >
+                        untuk melihat
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

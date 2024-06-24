@@ -51,7 +51,7 @@
 
             <nav
               id="nav-menu"
-              class="hidden absolute z-50 py-5 text-white bg-mainblue shadow-lg rounded-lg max-w-[250px] w-full -right-6 top-10 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:text-black"
+              class="hidden absolute z-50 py-5 text-black bg-white shadow-lg rounded-lg max-w-[250px] w-full -right-6 top-10 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:text-black"
             >
               <ul class="block lg:flex">
                 <li class="group">
@@ -172,8 +172,16 @@
             <div class="flex justify-center mt-10 mb-6 lg:mt-0">
               <h1 class="font-bold text-xl">Sampaikan Pesanmu</h1>
             </div>
-            <form action="">
+
+            <form action="https://api.web3forms.com/submit" method="POST">
               <ul class="flex flex-wrap justify-between">
+                <li class="hidden">
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="d37026be-85ec-4615-b88b-e3a18df1878d"
+                  />
+                </li>
                 <li class="w-full lg:w-[45%]">
                   <label for="name" class="text-gray-600 text-sm"
                     >Nama Kamu</label
@@ -182,6 +190,7 @@
                     type="text"
                     name="name"
                     id="name"
+                    required
                     class="border-b-2 focus:outline-none border-gray-400 w-full"
                   />
                 </li>
@@ -193,34 +202,38 @@
                     type="email"
                     name="email"
                     id="email"
+                    required
                     class="border-b-2 focus:outline-none border-gray-400 w-full"
                   />
                 </li>
                 <li class="w-full mb-6 lg:mt-10 lg:mb-0">
-                  <label for="judul" class="text-gray-600 text-sm"
+                  <label for="subject" class="text-gray-600 text-sm"
                     >Judul Pesan Kamu</label
                   ><br />
                   <input
                     type="text"
-                    name="judul"
-                    id="judul"
+                    name="subject"
+                    id="subject"
+                    required
                     class="border-b-2 focus:outline-none border-gray-400 w-full"
                   />
                 </li>
                 <li class="w-full mb-6 lg:mt-10 lg:mb-0">
-                  <label for="pesan" class="text-gray-600 text-sm"
-                    >Judul Pesan Kamu</label
+                  <label for="message" class="text-gray-600 text-sm"
+                    >Isi Pesan Kamu</label
                   ><br />
 
                   <textarea
-                    id="pesan"
-                    name="pesan"
+                    id="message"
+                    name="message"
                     rows="3"
+                    required
                     class="border-b-2 focus:outline-none border-gray-400 w-full"
                   ></textarea>
                 </li>
                 <li>
                   <button
+                    type="submit"
                     class="py-2 px-4 bg-mainblue rounded-full text-white mt-6 text-sm hover:bg-bluetxt transition duration-500"
                   >
                     Kirim Pesanmu
