@@ -635,6 +635,10 @@ video {
   top: -3rem;
 }
 
+.-top-\[103px\] {
+  top: -103px;
+}
+
 .-top-\[20px\] {
   top: -20px;
 }
@@ -723,8 +727,28 @@ video {
   top: -66px;
 }
 
+.-top-\[85px\] {
+  top: -85px;
+}
+
+.-top-\[91px\] {
+  top: -91px;
+}
+
 .left-0 {
   left: 0px;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-\[3px\] {
+  left: 3px;
 }
 
 .right-2 {
@@ -737,90 +761,6 @@ video {
 
 .top-10 {
   top: 2.5rem;
-}
-
-.-top-\[56px\] {
-  top: -56px;
-}
-
-.-top-\[70px\] {
-  top: -70px;
-}
-
-.-top-\[100px\] {
-  top: -100px;
-}
-
-.-top-\[90px\] {
-  top: -90px;
-}
-
-.left-1 {
-  left: 0.25rem;
-}
-
-.left-4 {
-  left: 1rem;
-}
-
-.left-2 {
-  left: 0.5rem;
-}
-
-.-top-\[85px\] {
-  top: -85px;
-}
-
-.-top-\[86px\] {
-  top: -86px;
-}
-
-.-top-\[84px\] {
-  top: -84px;
-}
-
-.-top-\[80px\] {
-  top: -80px;
-}
-
-.-top-\[110px\] {
-  top: -110px;
-}
-
-.-top-\[105px\] {
-  top: -105px;
-}
-
-.left-3 {
-  left: 0.75rem;
-}
-
-.left-\[2px\] {
-  left: 2px;
-}
-
-.left-\[3px\] {
-  left: 3px;
-}
-
-.-top-\[91px\] {
-  top: -91px;
-}
-
-.-top-\[103px\] {
-  top: -103px;
-}
-
-.-top-\[104px\] {
-  top: -104px;
-}
-
-.-top-\[108px\] {
-  top: -108px;
-}
-
-.left-\[4px\] {
-  left: 4px;
 }
 
 .z-50 {
@@ -992,12 +932,6 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.scale-\[1\.18\] {
-  --tw-scale-x: 1.18;
-  --tw-scale-y: 1.18;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .scale-\[1\.25\] {
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
@@ -1016,21 +950,9 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.scale-\[1\.4\] {
-  --tw-scale-x: 1.4;
-  --tw-scale-y: 1.4;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .scale-\[1\.45\] {
   --tw-scale-x: 1.45;
   --tw-scale-y: 1.45;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.scale-\[1\.5\] {
-  --tw-scale-x: 1.5;
-  --tw-scale-y: 1.5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1115,6 +1037,14 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .px-2 {
@@ -1440,16 +1370,24 @@ body {
     top: -2.25rem;
   }
 
+  .lg\:-top-\[112px\] {
+    top: -112px;
+  }
+
+  .lg\:-top-\[121px\] {
+    top: -121px;
+  }
+
+  .lg\:-top-\[137px\] {
+    top: -137px;
+  }
+
   .lg\:-top-\[27px\] {
     top: -27px;
   }
 
   .lg\:-top-\[29px\] {
     top: -29px;
-  }
-
-  .lg\:-top-\[30px\] {
-    top: -30px;
   }
 
   .lg\:-top-\[33px\] {
@@ -1512,52 +1450,12 @@ body {
     top: -90px;
   }
 
-  .lg\:-top-\[140px\] {
-    top: -140px;
-  }
-
-  .lg\:-top-\[120px\] {
-    top: -120px;
-  }
-
-  .lg\:-top-\[121px\] {
-    top: -121px;
-  }
-
-  .lg\:left-2 {
-    left: 0.5rem;
-  }
-
-  .lg\:left-4 {
-    left: 1rem;
+  .lg\:left-1 {
+    left: 0.25rem;
   }
 
   .lg\:left-3 {
     left: 0.75rem;
-  }
-
-  .lg\:-top-\[102px\] {
-    top: -102px;
-  }
-
-  .lg\:-top-\[112px\] {
-    top: -112px;
-  }
-
-  .lg\:-top-\[125px\] {
-    top: -125px;
-  }
-
-  .lg\:-top-\[129px\] {
-    top: -129px;
-  }
-
-  .lg\:-top-\[137px\] {
-    top: -137px;
-  }
-
-  .lg\:left-1 {
-    left: 0.25rem;
   }
 
   .lg\:mt-24 {

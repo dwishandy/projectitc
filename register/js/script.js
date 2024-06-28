@@ -5,7 +5,7 @@ function sendMessage() {
   let divisi = document.getElementById("divisi").value;
 
   let url =
-    "https://api.whatsapp.com/send?phone=6283872276428&text=Halo%20Kak%0A%0ASaya%20*" +
+    "https://api.whatsapp.com/send?phone=6285691278619&text=Halo%20Kak%0A%0ASaya%20*" +
     name +
     "*%0AKelas%20*" +
     kelas +
