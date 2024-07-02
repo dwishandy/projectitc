@@ -791,6 +791,14 @@ video {
   top: -50px;
 }
 
+.-left-\[1px\] {
+  left: -1px;
+}
+
+.-top-\[47px\] {
+  top: -47px;
+}
+
 .z-50 {
   z-index: 50;
 }
