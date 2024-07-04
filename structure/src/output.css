@@ -623,10 +623,6 @@ video {
   left: -1rem;
 }
 
-.-left-\[1px\] {
-  left: -1px;
-}
-
 .-left-\[2px\] {
   left: -2px;
 }
@@ -763,6 +759,10 @@ video {
   left: 0.5rem;
 }
 
+.left-\[2px\] {
+  left: 2px;
+}
+
 .left-\[3px\] {
   left: 3px;
 }
@@ -779,12 +779,12 @@ video {
   top: 2.5rem;
 }
 
-.left-\[2px\] {
-  left: 2px;
+.-top-\[26px\] {
+  top: -26px;
 }
 
-.-top-\[27px\] {
-  top: -27px;
+.-top-\[29px\] {
+  top: -29px;
 }
 
 .z-50 {
@@ -946,6 +946,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.scale-\[1\.05\] {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .scale-\[1\.10\] {
   --tw-scale-x: 1.10;
   --tw-scale-y: 1.10;
@@ -985,18 +991,6 @@ video {
 .scale-\[2\] {
   --tw-scale-x: 2;
   --tw-scale-y: 2;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.scale-\[1\.1\] {
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.scale-\[1\.05\] {
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1472,8 +1466,8 @@ body {
     top: -60px;
   }
 
-  .lg\:-top-\[62px\] {
-    top: -62px;
+  .lg\:-top-\[64px\] {
+    top: -64px;
   }
 
   .lg\:-top-\[68px\] {
@@ -1498,18 +1492,6 @@ body {
 
   .lg\:left-3 {
     left: 0.75rem;
-  }
-
-  .lg\:-top-\[48px\] {
-    top: -48px;
-  }
-
-  .lg\:-top-\[67px\] {
-    top: -67px;
-  }
-
-  .lg\:-top-\[64px\] {
-    top: -64px;
   }
 
   .lg\:mt-24 {
