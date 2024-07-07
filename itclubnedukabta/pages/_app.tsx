@@ -1,4 +1,3 @@
-import { AppProps } from "next/app";
 import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({

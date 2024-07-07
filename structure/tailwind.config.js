@@ -15,7 +15,7 @@ module.exports = {
         bluebgperson: "#3D85D7",
       },
       screens: {
-        "3xl": "1440px",
+        "4K": "1550px",
       },
     },
   },

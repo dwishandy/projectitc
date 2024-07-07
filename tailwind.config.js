@@ -14,7 +14,7 @@ module.exports = {
         footer: "#0A4587",
       },
       screens: {
-        "3xl": "1440px",
+        "4K": "1550px",
       },
     },
   },
